@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  padding: 0px 40px;
+}
+/* header*/
+.header-top{
+  height: 90px;
+  line-height: 90px;
+}
+.header-bottom{
+  padding: 5px;
+}
+.logo{
+  height: 100px;
+  vertical-align: middle;
+  padding: 2px;
+}
+.logo-gmail{
+  display: inline;
+  color: #FFFAFA;
+}
+button{
+  border-radius: 5px;
+  background: white;
+}
+/* main*/
+main{
+
+}
+.title-unread{
+  color:#FFFFFF;
+}
+.title-unread span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 10px;
+  background-color: #FF9900;
+}
+
+.email{
+  background-color: #d2d2d2;
+  border: 1px solid black;
+  padding: 3px;
+
+}
+.email p {
+  display: inline;
+}
+.read{
+  background-color: white;
+}
+hr{
+  margin: 10px 0px;
+}
+
+/* footer*/
+.footer{
+  color: white;
+  text-align: center;
+}
